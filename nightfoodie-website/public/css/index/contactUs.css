@@ -1,0 +1,45 @@
+.contact-us-header{
+    font-weight: bold;
+    display: block;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-us-label{
+    margin-top: 12px;
+}
+
+.contact-us-input{
+    margin-top: 25px;
+    border: none;
+    border-bottom: 1px solid #1ABC9C;
+
+    width: 72%;
+    margin-left: 14%;
+}
+
+.contact-us-input:focus{
+    outline: none;
+}
+
+.contact-us-textarea{
+    margin-top: 25px;
+    resize: none;
+    height: 160px;
+    border: none;
+    border-bottom: 1px solid #1ABC9C;
+    overflow-y: auto;
+    width: 72%;
+    margin-left: 14%;
+}
+
+.contact-us-textarea:focus{
+    outline: none;
+}
+
+.contact-us-button{
+    margin-left: 12.5%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}

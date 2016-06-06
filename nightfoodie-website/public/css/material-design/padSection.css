@@ -1,0 +1,30 @@
+/** The top and bottom padding for the section tag **/
+section{
+	padding: 100px 0;
+}
+
+/** hr styling: changing size and look **/
+.header-underline{
+	margin: 20px auto;
+    max-width: 200px;
+    height: 2px;
+}
+
+.section-colour{
+	background-color: #FAFAFA;
+}
+
+.fade{
+	opacity: 0;
+	transition: 1.5s linear all;
+	-webkit-transition: 1.5s linear all;
+	-moz-transition: 1.5s linear all;
+}
+
+.fadein{
+	opacity: 1;
+}
+
+.noscroll{
+	overflow: hidden;
+}
