@@ -51,7 +51,7 @@ CREATE TABLE `restaurant_info` (
   KEY `active` (`active`),
   KEY `province_id` (`province_id`),
   CONSTRAINT `province_id` FOREIGN KEY (`province_id`) REFERENCES `province` (`province_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -60,6 +60,7 @@ CREATE TABLE `restaurant_info` (
 
 LOCK TABLES `restaurant_info` WRITE;
 /*!40000 ALTER TABLE `restaurant_info` DISABLE KEYS */;
+INSERT INTO `restaurant_info` VALUES (1,'benji','qwerty123','Benjamin\'s Burger','Zhao','Benjamin','310 Goldhawk Trail',NULL,'TORONTO',1,'M1V4H2','416-293-4186',NULL,NULL,NULL,'Benjamin.zhao1995@gmail.com','Y','2016-06-06 02:10:12','2016-06-06 02:10:12');
 /*!40000 ALTER TABLE `restaurant_info` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -72,4 +73,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-06-05 17:59:23
+-- Dump completed on 2016-06-06  0:01:37
