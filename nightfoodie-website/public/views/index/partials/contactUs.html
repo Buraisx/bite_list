@@ -1,8 +1,10 @@
 <div class="container">
-    <div class="panel col-sm-offset-2 col-sm-8 lvl-dp-1">
+    <div class="col-sm-12">
         <form class="form-horizontal">
-            <div class="row">
+            <div class="row col-sm-offset-2 col-sm-8">
                 <h1 class="contact-us-header text-center">Contact Us</h1>
+                <p class="highlight-quote text-center">We want to know what we can do to better satisfy your appetite! If you are a retailer, or if you'd like to suggest a retailer to be a partner of Night Foodie, let us know!</p>
+                <hr class="header-underline">
             </div>
             <div class="row">
                 <input class="contact-us-input" type="text" id="indexContactusName" ng-model="main.indexContactusName" placeholder="Name" required>
@@ -14,7 +16,7 @@
                 <textarea class="contact-us-textarea" id="indexContactusMessage" ng-model="main.indexContactusMessage" placeholder="Message" required></textarea>
             </div>
 
-            <button class="btn btn-success contact-us-button" type="button" ng-click="main.submitContactUs()">Submit</button>
+            <button class="btn contact-us-button contact-us-button-pos" type="button" ng-click="main.submitContactUs()">Send</button>
         </form>
     </div>
 </div>
