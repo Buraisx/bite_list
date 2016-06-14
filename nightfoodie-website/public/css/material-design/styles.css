@@ -70,3 +70,8 @@ section{
   display: flex;
   align-items: center;
 }
+
+.highlight-quote{
+	color: #EC407A;
+	font-weight:400;
+}
