@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var passport = require('passport');
 var session = require('express-session');
+var http = require('http');
 
 var errorLogger = require('./util/errorLogger.js');
 var connection = require('./util/mysqlPool.js');
@@ -27,9 +28,14 @@ app.use(session({ secret: 'secretsession' })); // session secret
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
 
+//TEMPORARY VISIT COUNTER (WILL STORE AS CONFIG FILE)
+var userCount=0;
+
 // Express will serve this one page, other pages will be handled by angular router.
 app.get('/', function(req, res, next){
-    res.sendFile(path.join(__dirname, 'public', 'views', 'index', 'index.html'));
+	userCount++;
+    res.sendFile(path.join(__dirname, 'public', 'views', 'index', 'index.html'), {headers: {'viewers': userCount}});
+    console.log(userCount + " visits!");
 });
 
 // All of our routes:
