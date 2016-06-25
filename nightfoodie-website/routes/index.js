@@ -26,6 +26,18 @@ router.post('/index/contact-us', function(req, res, middlewareNext){
     };
 
     async.waterfall([
+		// VALIDATING FIELDS
+		function(next){
+			if(!req.body.name || !req.body.email || !req.body.message){
+				var error = errorList.INCOMPLETE_FORM;
+				error.specifics = 'Contact-Us form is incomplete.';
+				return next(error);
+			}
+			else{
+				next(null);
+			}
+		},
+
         // SEND EMAIL TO USER
         function(next){
             email.sendMail(transport, templates, heading, context, function(err, failed){
@@ -51,7 +63,7 @@ router.post('/index/contact-us', function(req, res, middlewareNext){
             templates = {
                 text: path.join(__dirname, '..', 'emails', 'contact-us', 'staffPlain.txt')
             };
-            heading.recipients = ['benjamin.zhao1995@hotmail.com'];
+            heading.recipients = ['saif_124@hotmail.com'];
 
             email.sendMail(transport, templates, heading, context, function(err, failed){
                 if(err && !failed){
