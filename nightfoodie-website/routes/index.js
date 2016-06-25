@@ -51,7 +51,7 @@ router.post('/index/contact-us', function(req, res, middlewareNext){
             templates = {
                 text: path.join(__dirname, '..', 'emails', 'contact-us', 'staffPlain.txt')
             };
-            heading.recipients = ['benjamin.zhao1995@hotmail.com'];
+            heading.recipients = ['saif_124@hotmail.com'];
 
             email.sendMail(transport, templates, heading, context, function(err, failed){
                 if(err && !failed){
