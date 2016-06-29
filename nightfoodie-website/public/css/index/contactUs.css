@@ -14,14 +14,13 @@
     padding-top: 25px; padding-bottom: 25px;
     border: none;
     border-top: 1px solid #4FC3F7;
-    width: 72%;
-    margin-left: 14%;
 
     font-size: 24px;
 
     background: linear-gradient(to right, #E1F5FE 50%, #fff 50%);
     background-size: 200% 100%;
     background-position: right bottom;
+    width: 100%;
 
     transition: background 0.5s ease-out;
 }
@@ -41,8 +40,7 @@
     border-top: 1px solid #4FC3F7;
     border-bottom: 1px solid #4FC3F7;
     overflow-y: auto;
-    width: 72%;
-    margin-left: 14%;
+    width: 100%;
 
     font-size: 24px;
 
@@ -60,7 +58,6 @@
 }
 
 .contact-us-button-pos{
-    margin-left: 12.5%;
     margin-top: 30px;
     margin-bottom: 40px;
 }
