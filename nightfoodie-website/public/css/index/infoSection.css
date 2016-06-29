@@ -55,6 +55,8 @@
 	opacity: 0;
 
 	margin-top: 8vh;
+	margin-left: 10%;
+	margin-right: 10%;
 
 	transition-delay: 0.1s;
 	transition-duration: 0.2s;

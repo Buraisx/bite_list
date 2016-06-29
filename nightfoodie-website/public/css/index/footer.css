@@ -1,5 +1,5 @@
 .footer-default-1{
-	background-color: #455A64;
+	background-color: #2b294c;
 	border-color: #e7e7e7;
 }
 
@@ -43,6 +43,6 @@
 .circle-outline:hover,
 .circle-outline:focus,
 .circle-outline.active {
-    color: #455A64;
+    color: #2b294c;
     background: #EEEEEE;
 }
