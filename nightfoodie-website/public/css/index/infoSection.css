@@ -195,7 +195,7 @@
 
 .info-section-3{
 	background-repeat:no-repeat;
-	background: linear-gradient(to right, rgba(62, 39, 35, 0.9) 50%, transparent 50% ), url("/img/info3.jpg") no-repeat center center fixed;
+	background: linear-gradient(to right, rgba(62, 39, 35, 1) 50%, transparent 50% ), url("/img/index/info3.jpg") no-repeat center center fixed;
 	background-position:center;
 	background-size: cover;
 	height:50vh;
@@ -206,10 +206,11 @@
 .info-section-3 p{
 	color: #64B5F6;
 
-	font-family: "Amatic SC", "Roboto", Arial, sans-serif;
-	font-weight: 400;
-	font-size: 30px;
-	letter-spacing: 6px;
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	letter-spacing: 2px;
+	line-height: 1.5;
 }
 
 .info-section-3 p .highlight-quote{
