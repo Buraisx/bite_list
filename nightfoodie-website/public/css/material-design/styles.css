@@ -47,6 +47,10 @@ section{
 	padding-top: 30px;
 }
 
+.pad-picture-md{
+	padding-top: 100px;
+}
+
 .mobile-pad-paragraph{
 }
 
@@ -81,7 +85,7 @@ section{
 }
 
 .highlight-quote-light{
-	color: #f17060;
+	color: #d91b5b;
 	font-weight: 400;
 }
 
@@ -93,5 +97,9 @@ section{
 @media only screen and (max-device-width: 768px){
 	.mobile-pad-paragraph{
 		padding-top: 30px;
+	}
+
+	.pad-picture-md{
+		padding-top: 0px;
 	}
 }

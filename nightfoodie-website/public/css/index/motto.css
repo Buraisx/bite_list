@@ -1,8 +1,9 @@
 #mottoContainer{
-	background: radial-gradient(ellipse closest-corner at 50% 60% , rgba(75, 101, 121, 0) 1%, rgba(62, 39, 35, 1) 100%), url("/img/intro-banner.jpg") no-repeat center center fixed;
+	/*background: radial-gradient(ellipse closest-corner at 50% 60% , rgba(120, 144, 156, 0) 1%, rgba(28, 63, 117, 1) 100%), url("/img/intro-banner.jpg") no-repeat center center fixed;*/
+	background: linear-gradient(to right, rgba(0,0,0, 0.5) 100%, rgba(0,0,0, 0.5) 100%), url("/img/intro-banner.jpg") no-repeat center center fixed;
 	background-position:center;
 	background-size: cover;
-	height:100vh;
+	height:75vh;
 	overflow:hidden;
 }
 /*
@@ -15,8 +16,7 @@
 }
 */
 .intro-pitch{
-	margin-top: 15%;
-	margin-left: 5%;
+	margin-top: 10%;
 }
 
 .button-getapp{
@@ -45,10 +45,17 @@
 	color: #BDBDBD;
 }
 
+.motto-img{
+	width: 20%;
+	height: auto;
+}
+
+.app-img{
+	width: 96px;
+	height: auto;
+}
+
 #intro-msg1{
-	font-family: Roboto,Arial,sans-serif;
-	/*font-size: 40px;*/
-	font-weight: 300;
 	color: #fff;
 }
 

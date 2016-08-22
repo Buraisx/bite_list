@@ -19,3 +19,90 @@
 .aboutus-media{
 	overflow: hidden;
 }
+
+.content-slider-container{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.content-slider{
+	background: linear-gradient(to right, transparent 50%, rgba(0,0,0, 0.5) 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    width: 100%;
+    height: 100%;
+
+    transition: background 0.5s ease-out;
+}
+
+.content-slider:hover{
+	background-position: right bottom;
+}
+
+.content-slider-text-left{
+	opacity: 0;
+	margin-left: -100%;
+	height: 100%;
+
+	margin-top: 0; margin-bottom: 0;
+	overflow: hidden;
+
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+}
+
+.content-slider-text-right{
+	opacity: 0;
+	padding-left: 100%;
+	height: 100%;
+
+	margin-top: 0; margin-bottom: 0;
+	overflow: hidden;
+
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+}
+
+.content-slider-text-left:hover{
+	opacity: 1;
+	margin-left: 0;
+}
+
+.content-slider-text-right:hover{
+	opacity: 1;
+	padding-left: 0;
+}
+
+.affordable-background{
+	background: linear-gradient(to right, rgba(217, 27, 91, 0.4) 100%, rgba(217, 27, 91, 0.4) 100%), url("/img/intro-banner.jpg") no-repeat center center fixed;
+	height: 25vh;
+}
+
+.affordable-header{
+	background-color: rgba(217, 27, 91, 1);
+	height: 100%;
+	margin: 0 0;
+}
+
+.accessible-background{
+	background: linear-gradient(to right, rgba(255, 172, 4, 0.4) 100%, rgba(255, 172, 4, 0.4) 100%), url("/img/intro-banner.jpg") no-repeat center center fixed;
+	height: 25vh;
+}
+
+.accessible-header{
+	background-color: rgba(255, 172, 4, 1);
+	height: 100%;
+	margin: 0 0;
+}
+
+.environmental-background{
+	background: linear-gradient(to right, rgba(35, 58, 128, 0.4) 100%, rgba(35, 58, 128, 0.4) 100%), url("/img/intro-banner.jpg") no-repeat center center fixed;
+	height: 25vh;
+}
+
+.environmental-header{
+	background-color: rgba(35, 58, 128, 1);
+	height: 100%;
+	margin: 0 0;
+}
