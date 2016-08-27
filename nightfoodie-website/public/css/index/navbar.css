@@ -42,42 +42,6 @@
     text-align: right;
 }
 
-.navbar-pointer-triangle{
-    content:"";
-    width: 0;
-    height: 0;
-    margin-left: -56px;
-    left: 50%;
-
-    margin-top: 62px;
-
-    border: 40px solid #fff;
-    border-color: #fff #fff #fff #fff;
-
-    transform-origin: 0 0;
-    transform: rotate(-45deg);
-
-    box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.3);
-
-    position: absolute;
-    z-index:1031;
-}
-
-/* Need to cover up top part of the rhombus */
-.navbar-pointer-rectangle{
-    content: "";
-    position: absolute;
-    width: 112px;
-    height: 62px;
-
-    background: #fff;
-
-    margin-left: -56px;
-    left: 50%;
-
-    z-index: 1032;
-}
-
 .navbar-transparent{
     background: transparent;
 }
@@ -89,7 +53,7 @@
 .navbar-logo{
     margin-left: 45px;
     padding-top: 8px;
-    width: 70px;
+    width: 50px;
     background: transparent;
 }
 
@@ -106,7 +70,7 @@
 
     opacity: 1 !important;
 
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 
@@ -137,17 +101,35 @@
 }
 
 @media (max-width: 992px) {
+    .navbar {
+        min-height: 125px;
+    }
+
     .navbar-header {
         float: none;
     }
     .navbar-toggle {
         display: block;
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-right: 30px;
+        width: 66px;
+        height: 62px;
     }
     .navbar-collapse {
         padding-right: 0px;
         border-top: 1px solid transparent;
     }
+
+    .navbar-toggle .navbar-toggle-span{
+        display: block;
+        width: 100%;
+        border-radius: 1px;
+    }
+
+    .margin-toggle-span{
+        margin-top: 20% !important;
+    }
+
     .navbar-fixed-top {
 		border-width: 0 0 0 0px;
     
@@ -169,7 +151,8 @@
 	}
 	
     .navbar-logo{
-        padding-top: 0px;
+        width: 90px;
+        padding-top: 20px;
     }
 
 	.logo{
@@ -190,6 +173,10 @@
     .navbar-pointer-cover{
         height:5px;
         display: none;
+    }
+
+    .navbar-default div .nav .nav-item a{
+        font-size: 32px;
     }
 }
 
