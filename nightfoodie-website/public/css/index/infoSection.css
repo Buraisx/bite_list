@@ -20,11 +20,15 @@
 /*==================================================================*/
 /*==================================================================*/
 .info-section-0{
-	background: url("/img/info2_1.jpg") fixed;
+	background: linear-gradient( rgba(66, 66, 66, 0.7), rgba(66, 66, 66, 0.7) ), url("/img/info2_1.jpg") fixed;
 	background-position:center;
 	background-size: cover;
-	display:flex;
+	
 	color: #000;
+}
+.info-section-0-comment{
+	margin-top:20%;
+	overflow:hidden;
 }
 .info-section-0-image1{
 	max-width:100%;
@@ -37,7 +41,11 @@
 }
 .info-right{
 	background-color: #fff;
-	overflow:auto;
+	padding-left:0;
+	padding-right:0;
+}
+.info-right2{
+	
 	float:right;
 	width:100%;
 	padding-left:0;
