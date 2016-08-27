@@ -39,6 +39,10 @@ body{
 	body{
 		font-size: 28px;
 	}
+
+	.m-text-padding{
+		padding-left: 5%; padding-right: 5%;
+	}
 }
 
 .oswald-text{
