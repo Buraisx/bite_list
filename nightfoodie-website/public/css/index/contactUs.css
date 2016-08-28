@@ -15,7 +15,7 @@
     border: none;
     border-top: 1px solid #4FC3F7;
 
-    font-size: 24px;
+    /*font-size: 24px;*/
 
     background: linear-gradient(to right, #E1F5FE 50%, #fff 50%);
     background-size: 200% 100%;
@@ -35,14 +35,14 @@
     padding-bottom: 25px;
 
     resize: none;
-    height: 160px;
+    height: 240px;
     border: none;
     border-top: 1px solid #4FC3F7;
     border-bottom: 1px solid #4FC3F7;
     overflow-y: auto;
     width: 100%;
 
-    font-size: 24px;
+    /*font-size: 24px;*/
 
     background: linear-gradient(to right, #E1F5FE 50%, #fff 50%);
     background-size: 200% 100%;
@@ -81,4 +81,14 @@
 .contact-us-button:focus{
     background: #4FC3F7;
     color: #fff;
+}
+
+@media only screen and (max-device-width: 768px){
+    .contact-us-input{
+        font-size: 28px;
+    }
+
+    .contact-us-textarea{
+        font-size: 28px;
+    }
 }

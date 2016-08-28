@@ -15,12 +15,18 @@
 	text-align: center;
 }
 
+@media only screen and (max-device-width: 768px){
+	.info-section-1{
+		font-size: 36px;	
+	}
+}
+
 /*==================================================================*/
 /*==================================================================*/
 /*==================================================================*/
 /*==================================================================*/
 .info-section-0{
-	background: linear-gradient( rgba(66, 66, 66, 0.7), rgba(66, 66, 66, 0.7) ), url("/img/info2_1.jpg") fixed;
+	background: linear-gradient( rgba(66, 66, 66, 0.7), rgba(66, 66, 66, 0.7) ), url("/img/index/info0-background2.jpg") fixed;
 	background-position:center;
 	background-size: cover;
 	
