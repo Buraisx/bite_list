@@ -78,9 +78,6 @@
 
 @media only screen and (max-device-width: 768px){
 	#mottoContainer{
-		background: radial-gradient(ellipse closest-corner at 50% 60% , rgba(75, 101, 121, 0) 1%, rgba(62, 39, 35, 1) 100%), url("/img/intro-banner.jpg") no-repeat center;
-		background-position:center;
-		background-size: cover;
 		min-height:50vh;
 	}
 
