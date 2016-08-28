@@ -2,12 +2,27 @@
 section{
 	padding: 100px 0;
 }
-
+.mobile-app-image{
+	background: url("/img/info3.jpg") fixed;
+	background-size:cover;
+	background-position:center;
+	height:80vh;
+}
+.mobile-app-margin{
+	margin-top:20%;
+	margin-bottom:5%;
+	margin-left:3%;
+}
 .no-padding-bottom{
 	padding-bottom: 0;
 }
 
 /** hr styling: changing size and look **/
+.mobile-app-padding-erase{
+	margin-top:5%;
+	margin-left:3%;	
+	padding-left:0px;
+}
 .header-underline{
 	margin: 20px auto;
     max-width: 200px;
