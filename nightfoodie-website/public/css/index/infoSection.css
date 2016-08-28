@@ -31,7 +31,6 @@
 	overflow:hidden;
 }
 .info-section-0-image1{
-	max-width:100%;
 	width:100%;
 }
 .info-section-0-content{
@@ -41,13 +40,6 @@
 }
 .info-right{
 	background-color: #fff;
-	padding-left:0;
-	padding-right:0;
-}
-.info-right2{
-	
-	float:right;
-	width:100%;
 	padding-left:0;
 	padding-right:0;
 }
@@ -63,7 +55,11 @@
 	font-size:0.9em;
 	padding-bottom:20%;
 }
-
+.info-section-row-margin
+{
+	margin-right:0;
+	margin-left:0;
+}
 .info-section-2{
 	display: flex;
 }
