@@ -6,11 +6,12 @@ myModule.directive('ngScrollSmooth', ['$document', function($document){
 		link: function(scope, element, attr){
 			var duration = 1500; //milliseconds
 			var offset = attr.offset;	//pixel adjustment
+			console.log(offset);
 
 			element.on('click', function(){
 				//Note: Use this in a directive, not with document.getElementById
 				var sectionElement = angular.element(document.getElementById(attr.ngScrollSmooth));
-	    		$document.scrollToElement(sectionElement, offset, duration);
+	    		$document.scrollToElement(sectionElement, parseInt(offset), duration);
 			});
 		}
 	};

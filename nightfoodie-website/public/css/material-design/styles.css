@@ -3,10 +3,10 @@ section{
 	padding: 100px 0;
 }
 .mobile-app-image{
-	background: url("/img/info3.jpg") fixed;
+	background: url("/img/info32.jpg");
 	background-size:cover;
-	background-position:center;
-	height:80vh;
+	
+	height:85vh;
 }
 .mobile-app-margin{
 	margin-top:20%;
