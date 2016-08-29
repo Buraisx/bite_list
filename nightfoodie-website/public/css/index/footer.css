@@ -14,10 +14,17 @@
 }
 
 .footer-content{
-    font-size:18px;
+    font-size:15px;
     color:#EEEEEE;
 }
-
+.footer-image{
+    margin-top:15px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:10vh;
+    width:10vh;
+}
 
 .btn-social {
     display: inline-block;
@@ -32,7 +39,7 @@
 
 /**Creates the border around the social media buttons**/
 .circle-outline {
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     border: solid 2px #EEEEEE;
     font-size: 20px;
     color: #EEEEEE;
