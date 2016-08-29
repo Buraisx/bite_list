@@ -109,6 +109,10 @@ section{
 	font-weight: 400;
 }
 
+.img-scale-to-col{
+	max-width: 100%;
+}
+
 @media only screen and (max-device-width: 768px){
 	.mobile-pad-paragraph{
 		padding-top: 30px;
